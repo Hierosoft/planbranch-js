@@ -9,6 +9,15 @@ Manage your adult support center's activities.
 * Copy from week to day (then add more details on day roster,
   such as activities).
 
+## Setup
+- Install nvm
+- nvm install v22
+- nvm use v22
+```
+cd planbranch-js && npm install && npm run seed
+```
+(`npm run seed` sets up an SQLite database using TypeORM. See src directory for details)
+
 ## Known Issues
 ### Outliers on destination schedule
 * testing: newcomer & every 6 wks
